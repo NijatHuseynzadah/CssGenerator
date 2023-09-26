@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/Style/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Тени</a></li>
+            <li><a href="#">Границы</a></li>
+            <li><a href="#">Генератор цветов</a></li>
+            <li><a href="#">Радиус границ</a></li>
+            <li id="underline"><a href="#">Генератор градиента</a></li>
+        </ul>
+    </nav>
+    <div class="gradient-container">
+        <h1>Генератор градиента</h1>
+        <div class="color-inputs">
+            <input type="color" id="color1" value="#FF5733">
+            <input type="color" id="color2" value="#33FF57">
+        </div>
+        <div class="gradient-preview"></div>
+        <button id="generate-button">Обычный градиент</button>
+        <button id="circle-gradient-button">Круговой градиент</button>
+    </div>
+
+    <script src="./Assets/Script/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="./Assets/Script/script.js"></script>
+</body>
+</html>
